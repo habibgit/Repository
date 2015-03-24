@@ -4,7 +4,7 @@ machine:
 
 dependencies:
   override:
-    - docker build -t habibgit/Repository .
+    - docker build -t habib/repo .
 
 deployment:
   hub:
