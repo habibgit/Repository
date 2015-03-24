@@ -4,11 +4,11 @@ machine:
 
 dependencies:
   override:
-    - docker build -t ahmadhamadeh/adriano .
+    - docker build -t habibgit/Repository .
 
 deployment:
   hub:
     branch: master
     commands:
       - docker login -e $habib.ali@accenture.com -u habibgit -p $DOCKER_PASS
-      - docker push habibgit
+      - docker push habibgit/Repository
