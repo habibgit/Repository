@@ -10,5 +10,5 @@ deployment:
   hub:
     branch: master
     commands:
-      - docker login -e $habib.ali@accenture.com -u habibgit -p $DOCKER_PASS
+      - docker login -e $habib.ali@accenture.com -u habib -p $DOCKER_PASS
       - docker push habib/repo
